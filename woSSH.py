@@ -122,6 +122,7 @@ def module_runner(hosts=[], module_path='', module_argv='', user=getpass.getuser
 
 
 if __name__ == '__main__':
+    ''' 调用 runner 接口例子 '''
     output = module_runner(
         hosts = ['192.168.200.67',],
         module_path = '/room/works/py_script/get_device_info.py',   #本地模块脚本路径
